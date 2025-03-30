@@ -1,0 +1,130 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+namespace WarGameplayTags
+{
+	/** Input Tags */
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Move);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Look);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_EquipSword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_UnequipSword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_LightAttack_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_HeavyAttack_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Roll);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_SwitchTarget);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_SpecialWeaponAbility_Light);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_SpecialWeaponAbility_Heavy);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Toggleable);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Toggleable_TragetLock);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Toggleable_Rage);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Sealing_Ten);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Sealing_Chi);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_Sealing_Jin);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_MustBeHeld);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(InputTag_MustBeHeld_Defense);
+	/** Player tags */
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Equip_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_UnEquip_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Attack_Light_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Attack_Heavy_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_HitPause);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Roll);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Defense);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_TargetLock);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Rage);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_SpecialWeaponAbility_Light);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_SpecialWeaponAbility_Heavy);
+
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Sealing_Ten);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Sealing_Chi);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Sealing_Jin);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Ability_Ninjutsu_Fire);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_CoolDown_SpecialSKill_Light);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_CoolDown_SpecialSKill_Heavy);
+	
+
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Weapon_Sword);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Equip_Sworde);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_Unequip_Sword);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_HitPause);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_SwitchTarget_Left);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_SwitchTarget_Right);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Event_AOE);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_JumpToFinisher);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rolling);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Defense);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_TargetLock);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rage_Activating);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rage_Active);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rage_Full);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_Status_Rage_None);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Light);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Player_SetByCaller_AttackType_Heavy);
+	
+	/** Enemy tags */
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Melee);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_RushAttack);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_King_Ability_GroupMove);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_King_Ability_GroupAttack);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_Ranged);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_SummonEnemies);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Ability_RunAway);
+
+
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Weapon);
+
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Event_SummonEnemies);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Status_Strafing);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Status_Run);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Status_UnderAttack);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_FollowMoving);
+
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_Relaxed);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_Alert);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_Attack);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_King_Status_GroupAttack);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_FollowMoving_AtRight);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Enemy_Wolf_Status_FollowMoving_AtLeft);
+
+
+	/**Shared Tags */
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_HitReact);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Ability_Death);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_MeleeHit);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_HitReact);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_SpawnProjectile);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Event_AbilityDone);
+	
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_SetByCaller_BaseDamage);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_Dead);
+
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_MeleeHit_Front);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_MeleeHit_Left);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_MeleeHit_Right);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Shared_Status_MeleeHit_Back);
+
+
+	/** Game Data tags **/
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameData_Level_GameMap);
+	WAR_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameData_Level_MainMenuMap);
+	
+}
